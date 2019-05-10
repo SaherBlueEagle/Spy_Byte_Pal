@@ -1,0 +1,945 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Server(New)
+</name>
+</assembly>
+<members>
+<member name="P:Server.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Server.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Server.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.AutoconfEnabled">
+	<summary>
+ Opcode used to set or query whether auto config is enabled.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.BackgroundScanEnabled">
+	<summary>
+ Opcode used to set or query whether background scan is enabled.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.MediaStreamingMode">
+	<summary>
+ Opcode used to set or query the media streaming mode of the driver.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.RadioState">
+	<summary>
+ Opcode used to set or query the radio state.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.BssType">
+	<summary>
+ Opcode used to set or query the BSS type of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.InterfaceState">
+	<summary>
+ Opcode used to query the state of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.CurrentConnection">
+	<summary>
+ Opcode used to query information about the current connection of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.ChannelNumber">
+	<summary>
+ Opcose used to query the current channel on which the wireless interface is operating.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.SupportedInfrastructureAuthCipherPairs">
+	<summary>
+ Opcode used to query the supported auth/cipher pairs for infrastructure mode.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.SupportedAdhocAuthCipherPairs">
+	<summary>
+ Opcode used to query the supported auth/cipher pairs for ad hoc mode.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.SupportedCountryOrRegionStringList">
+	<summary>
+ Opcode used to query the list of supported country or region strings.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.CurrentOperationMode">
+	<summary>
+ Opcode used to set or query the current operation mode of the wireless interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.Statistics">
+	<summary>
+ Opcode used to query driver statistics.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanIntfOpcode.RSSI">
+	<summary>
+ Opcode used to query the received signal strength.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanIntfOpcode">
+	<summary>
+ Defines various opcodes used to set and query parameters for an interface.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_INTF_OPCODE</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanOpcodeValueType.QueryOnly">
+	<summary>
+ The auto config settings were queried, but the origin of the settings was not determined.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanOpcodeValueType.SetByGroupPolicy">
+	<summary>
+ The auto config settings were set by group policy.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanOpcodeValueType.SetByUser">
+	<summary>
+ The auto config settings were set by the user.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanOpcodeValueType.Invalid">
+	<summary>
+ The auto config settings are invalid.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanOpcodeValueType">
+	<summary>
+ Specifies the origin of automatic configuration (auto config) settings.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_OPCODE_VALUE_TYPE</c> type.
+ </remarks>
+</member><member name="M:Server.NativeWifi.Wlan.WlanScan(System.IntPtr,System.Guid,System.IntPtr,System.IntPtr,System.IntPtr)">
+	<param name="pDot11Ssid">Not supported on Windows XP SP2: must be a <c>null</c> reference.</param>
+	<param name="pIeData">Not supported on Windows XP SP2: must be a <c>null</c> reference.</param>
+</member><member name="F:Server.NativeWifi.Wlan.WlanGetAvailableNetworkFlags.IncludeAllAdhocProfiles">
+	<summary>
+ Include all ad-hoc network profiles in the available network list, including profiles that are not visible.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanGetAvailableNetworkFlags.IncludeAllManualHiddenProfiles">
+	<summary>
+ Include all hidden network profiles in the available network list, including profiles that are not visible.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanGetAvailableNetworkFlags">
+	<summary>
+ Defines flags passed to <see cref="M:Server.NativeWifi.Wlan.WlanGetAvailableNetworkList(System.IntPtr,System.Guid,Server.NativeWifi.Wlan.WlanGetAvailableNetworkFlags,System.IntPtr,System.IntPtr@)"/>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetworkListHeader.numberOfItems">
+	<summary>
+ Contains the number of <see cref="!:"/> items following the header.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetworkListHeader.index">
+	<summary>
+ The index of the current item. The index of the first item is 0.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanAvailableNetworkListHeader">
+	<summary>
+ The header of an array of information about available networks.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetworkFlags.Connected">
+	<summary>
+ This network is currently connected.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetworkFlags.HasProfile">
+	<summary>
+ There is a profile for this network.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanAvailableNetworkFlags">
+	<summary>
+ Contains various flags for the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.profileName">
+	<summary>
+ Contains the profile name associated with the network.
+ If the network doesn't have a profile, this member will be empty.
+ If multiple profiles are associated with the network, there will be multiple entries with the same SSID in the visible network list. Profile names are case-sensitive.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.dot11Ssid">
+	<summary>
+ Contains the SSID of the visible wireless network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.dot11BssType">
+	<summary>
+ Specifies whether the network is infrastructure or ad hoc.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.numberOfBssids">
+	<summary>
+ Indicates the number of BSSIDs in the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.networkConnectable">
+	<summary>
+ Indicates whether the network is connectable or not.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.wlanNotConnectableReason">
+	<summary>
+ Indicates why a network cannot be connected to. This member is only valid when <see cref="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.networkConnectable"/> is <c>false</c>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.numberOfPhyTypes">
+	<summary>
+ The number of PHY types supported on available networks.
+ The maximum value of this field is 8. If more than 8 PHY types are supported, <see cref="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.morePhyTypes"/> must be set to <c>true</c>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.m_dot11PhyTypes">
+	<summary>
+ Contains an array of <see cref="T:Server.NativeWifi.Wlan.Dot11PhyType"/> values that represent the PHY types supported by the available networks.
+ When <see cref="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.numberOfPhyTypes"/> is greater than 8, this array contains only the first 8 PHY types.
+ </summary>
+</member><member name="P:Server.NativeWifi.Wlan.WlanAvailableNetwork.Dot11PhyTypes">
+	<summary>
+ Gets the <see cref="T:Server.NativeWifi.Wlan.Dot11PhyType"/> values that represent the PHY types supported by the available networks.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.morePhyTypes">
+	<summary>
+ Specifies if there are more than 8 PHY types supported.
+ When this member is set to <c>true</c>, an application must call <see cref="M:Server.NativeWifi.WlanClient.WlanInterface.GetNetworkBssList"/> to get the complete list of PHY types.
+ <see cref="F:Server.NativeWifi.Wlan.WlanBssEntry.phyId"/> contains the PHY type for an entry.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.wlanSignalQuality">
+	<summary>
+ A percentage value that represents the signal quality of the network.
+ This field contains a value between 0 and 100.
+ A value of 0 implies an actual RSSI signal strength of -100 dbm.
+ A value of 100 implies an actual RSSI signal strength of -50 dbm.
+ You can calculate the RSSI signal strength value for values between 1 and 99 using linear interpolation.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.securityEnabled">
+	<summary>
+ Indicates whether security is enabled on the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.dot11DefaultAuthAlgorithm">
+	<summary>
+ Indicates the default authentication algorithm used to join this network for the first time.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.dot11DefaultCipherAlgorithm">
+	<summary>
+ Indicates the default cipher algorithm to be used when joining this network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.flags">
+	<summary>
+ Contains various flags for the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAvailableNetwork.reserved">
+	<summary>
+ Reserved for future use. Must be set to NULL.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanAvailableNetwork">
+	<summary>
+ Contains information about an available wireless network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanProfileFlags.AllUser">
+	<remarks>
+ The only option available on Windows XP SP2.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAccess.ReadAccess">
+	<summary>
+ The user can view profile permissions.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAccess.ExecuteAccess">
+	<summary>
+ The user has read access, and the user can also connect to and disconnect from a network using the profile.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAccess.WriteAccess">
+	<summary>
+ The user has execute access and the user can also modify and delete permissions associated with a profile.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanAccess">
+	<summary>
+ Defines the access mask of an all-user profile.
+ </summary>
+</member><member name="M:Server.NativeWifi.Wlan.WlanGetProfile(System.IntPtr,System.Guid,System.String,System.IntPtr,System.IntPtr@,Server.NativeWifi.Wlan.WlanProfileFlags@,Server.NativeWifi.Wlan.WlanAccess@)">
+	<param name="flags">Not supported on Windows XP SP2: must be a <c>null</c> reference.</param>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationSource.All">
+	<summary>
+ All notifications, including those generated by the 802.1X module.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationSource.ACM">
+	<summary>
+ Notifications generated by the auto configuration module.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationSource.MSM">
+	<summary>
+ Notifications generated by MSM.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationSource.Security">
+	<summary>
+ Notifications generated by the security module.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationSource.IHV">
+	<summary>
+ Notifications generated by independent hardware vendors (IHV).
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanNotificationSource">
+	<summary>
+ Specifies where the notification comes from.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanNotificationCodeAcm">
+	<summary>
+ Indicates the type of an ACM (<see cref="F:Server.NativeWifi.Wlan.WlanNotificationSource.ACM"/>) notification.
+ </summary>
+	<remarks>
+ The enumeration identifiers correspond to the native <c>wlan_notification_acm_</c> identifiers.
+ On Windows XP SP2, only the <c>ConnectionComplete</c> and <c>Disconnected</c> notifications are available.
+ </remarks>
+</member><member name="T:Server.NativeWifi.Wlan.WlanNotificationCodeMsm">
+	<summary>
+ Indicates the type of an MSM (<see cref="F:Server.NativeWifi.Wlan.WlanNotificationSource.MSM"/>) notification.
+ </summary>
+	<remarks>
+ The enumeration identifiers correspond to the native <c>wlan_notification_msm_</c> identifiers.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationData.notificationSource">
+	<summary>
+ Specifies where the notification comes from.
+ </summary>
+	<remarks>
+ On Windows XP SP2, this field must be set to <see cref="F:Server.NativeWifi.Wlan.WlanNotificationSource.None"/>, <see cref="F:Server.NativeWifi.Wlan.WlanNotificationSource.All"/> or <see cref="F:Server.NativeWifi.Wlan.WlanNotificationSource.ACM"/>.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationData.m_notificationCode">
+	<summary>
+ Indicates the type of notification. The value of this field indicates what type of associated data will be present in <see cref="F:Server.NativeWifi.Wlan.WlanNotificationData.dataPtr"/>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationData.interfaceGuid">
+	<summary>
+ Indicates which interface the notification is for.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationData.dataSize">
+	<summary>
+ Specifies the size of <see cref="F:Server.NativeWifi.Wlan.WlanNotificationData.dataPtr"/>, in bytes.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanNotificationData.dataPtr">
+	<summary>
+ Pointer to additional data needed for the notification, as indicated by <see cref="P:Server.NativeWifi.Wlan.WlanNotificationData.NotificationCode"/>.
+ </summary>
+</member><member name="P:Server.NativeWifi.Wlan.WlanNotificationData.NotificationCode">
+	<summary>
+ Gets the notification code (in the correct enumeration type) according to the notification source.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanNotificationData">
+	<summary>
+ Contains information provided when registering for notifications.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_NOTIFICATION_DATA</c> type.
+ </remarks>
+</member><member name="T:Server.NativeWifi.Wlan.WlanNotificationCallbackDelegate">
+	<summary>
+ Defines the callback function which accepts WLAN notifications.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionFlags.HiddenNetwork">
+	<summary>
+ Connect to the destination network even if the destination is a hidden network. A hidden network does not broadcast its SSID. Do not use this flag if the destination network is an ad-hoc network.
+ <para>If the profile specified by <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.profile"/> is not <c>null</c>, then this flag is ignored and the nonBroadcast profile element determines whether to connect to a hidden network.</para>
+	</summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionFlags.AdhocJoinOnly">
+	<summary>
+ Do not form an ad-hoc network. Only join an ad-hoc network if the network already exists. Do not use this flag if the destination network is an infrastructure network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionFlags.IgnorePrivacyBit">
+	<summary>
+ Ignore the privacy bit when connecting to the network. Ignoring the privacy bit has the effect of ignoring whether packets are encryption and ignoring the method of encryption used. Only use this flag when connecting to an infrastructure network using a temporary profile.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionFlags.EapolPassthrough">
+	<summary>
+ Exempt EAPOL traffic from encryption and decryption. This flag is used when an application must send EAPOL traffic over an infrastructure network that uses Open authentication and WEP encryption. This flag must not be used to connect to networks that require 802.1X authentication. This flag is only valid when <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.wlanConnectionMode"/> is set to <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.TemporaryProfile"/>. Avoid using this flag whenever possible.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanConnectionFlags">
+	<summary>
+ Defines connection parameter flags.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.wlanConnectionMode">
+	<summary>
+ Specifies the mode of connection.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.profile">
+	<summary>
+ Specifies the profile being used for the connection.
+ The contents of the field depend on the <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.wlanConnectionMode"/>:
+ <list type="table">
+			<listheader>
+				<term>Value of <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.wlanConnectionMode"/></term>
+				<description>Contents of the profile string</description>
+			</listheader>
+			<item>
+				<term><see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.Profile"/></term>
+				<description>The name of the profile used for the connection.</description>
+			</item>
+			<item>
+				<term><see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.TemporaryProfile"/></term>
+				<description>The XML representation of the profile used for the connection.</description>
+			</item>
+			<item>
+				<term><see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.DiscoverySecure"/>, <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.DiscoveryUnsecure"/> or <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.Auto"/></term>
+				<description><c>null</c></description>
+			</item>
+		</list>
+	</summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.dot11SsidPtr">
+	<summary>
+ Pointer to a <see cref="T:Server.NativeWifi.Wlan.Dot11Ssid"/> structure that specifies the SSID of the network to connect to.
+ This field is optional. When set to <c>null</c>, all SSIDs in the profile will be tried.
+ This field must not be <c>null</c> if <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.wlanConnectionMode"/> is set to <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.DiscoverySecure"/> or <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.DiscoveryUnsecure"/>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.desiredBssidListPtr">
+	<summary>
+ Pointer to a <see cref="!:Dot11BssidList"/> structure that contains the list of basic service set (BSS) identifiers desired for the connection.
+ </summary>
+	<remarks>
+ On Windows XP SP2, must be set to <c>null</c>.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.dot11BssType">
+	<summary>
+ A <see cref="F:Server.NativeWifi.Wlan.WlanConnectionParameters.dot11BssType"/> value that indicates the BSS type of the network. If a profile is provided, this BSS type must be the same as the one in the profile.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionParameters.flags">
+	<summary>
+ Specifies ocnnection parameters.
+ </summary>
+	<remarks>
+ On Windows XP SP2, must be set to 0.
+ </remarks>
+</member><member name="T:Server.NativeWifi.Wlan.WlanConnectionParameters">
+	<summary>
+ Specifies the parameters used when using the <see cref="M:Server.NativeWifi.Wlan.WlanConnect(System.IntPtr,System.Guid,Server.NativeWifi.Wlan.WlanConnectionParameters@,System.IntPtr)"/> function.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_CONNECTION_PARAMETERS</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAdhocNetworkState.Formed">
+	<summary>
+ The ad hoc network has been formed, but no client or host is connected to the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanAdhocNetworkState.Connected">
+	<summary>
+ A client or host is connected to the ad hoc network.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanAdhocNetworkState">
+	<summary>
+ The connection state of an ad hoc network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.dot11Ssid">
+	<summary>
+ Contains the SSID of the access point (AP) associated with the BSS.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.phyId">
+	<summary>
+ The identifier of the PHY on which the AP is operating.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.dot11Bssid">
+	<summary>
+ Contains the BSS identifier.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.dot11BssType">
+	<summary>
+ Specifies whether the network is infrastructure or ad hoc.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.rssi">
+	<summary>
+ The received signal strength in dBm.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.linkQuality">
+	<summary>
+ The link quality reported by the driver. Ranges from 0-100.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.inRegDomain">
+	<summary>
+ If 802.11d is not implemented, the network interface card (NIC) must set this field to TRUE. If 802.11d is implemented (but not necessarily enabled), the NIC must set this field to TRUE if the BSS operation complies with the configured regulatory domain.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.beaconPeriod">
+	<summary>
+ Contains the beacon interval value from the beacon packet or probe response.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.timestamp">
+	<summary>
+ The timestamp from the beacon packet or probe response.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.hostTimestamp">
+	<summary>
+ The host timestamp value when the beacon or probe response is received.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.capabilityInformation">
+	<summary>
+ The capability value from the beacon packet or probe response.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.chCenterFrequency">
+	<summary>
+ The frequency of the center channel, in kHz.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.wlanRateSet">
+	<summary>
+ Contains the set of data transfer rates supported by the BSS.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.ieOffset">
+	<summary>
+ Offset of the information element (IE) data blob.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanBssEntry.ieSize">
+	<summary>
+ Size of the IE data blob, in bytes.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanBssEntry">
+	<summary>
+ Contains information about a basic service set (BSS).
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanRateSet.rateSetLength">
+	<summary>
+ The length, in bytes, of <see cref="F:Server.NativeWifi.Wlan.WlanRateSet.rateSet"/>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanRateSet.rateSet">
+	<summary>
+ An array of supported data transfer rates.
+ If the rate is a basic rate, the first bit of the rate value is set to 1.
+ A basic rate is the data transfer rate that all stations in a basic service set (BSS) can use to receive frames from the wireless medium.
+ </summary>
+</member><member name="M:Server.NativeWifi.Wlan.WlanRateSet.GetRateInMbps(System.Int32)">
+	<summary>
+ CalculateS the data transfer rate in Mbps for an arbitrary supported rate.
+ </summary>
+	<param name="rate"></param>
+	<returns></returns>
+</member><member name="T:Server.NativeWifi.Wlan.WlanRateSet">
+	<summary>
+ Contains the set of supported data rates.
+ </summary>
+</member><member name="P:Server.NativeWifi.Wlan.WlanException.ReasonCode">
+	<summary>
+ Gets the WLAN reason code.
+ </summary>
+	<value>The WLAN reason code.</value>
+</member><member name="P:Server.NativeWifi.Wlan.WlanException.Message">
+	<summary>
+ Gets a message that describes the reason code.
+ </summary>
+	<value></value>
+	<returns>The error message that explains the reason for the exception, or an empty string("").</returns>
+</member><member name="T:Server.NativeWifi.Wlan.WlanException">
+	<summary>
+ Represents an error occuring during WLAN operations which indicate their failure via a <see cref="T:Server.NativeWifi.Wlan.WlanReasonCode"/>.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanReasonCode">
+	<summary>
+ Specifies reasons for a failure of a WLAN operation.
+ </summary>
+	<remarks>
+ To get the WLAN API native reason code identifiers, prefix the identifiers with <c>WLAN_REASON_CODE_</c>.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.wlanConnectionMode">
+	<remarks>
+ On Windows XP SP 2, only <see cref="F:Server.NativeWifi.Wlan.WlanConnectionMode.Profile"/> is supported.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.profileName">
+	<summary>
+ The name of the profile used for the connection. Profile names are case-sensitive.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.dot11Ssid">
+	<summary>
+ The SSID of the association.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.dot11BssType">
+	<summary>
+ The BSS network type.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.securityEnabled">
+	<summary>
+ Indicates whether security is enabled for this connection.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.wlanReasonCode">
+	<summary>
+ Indicates the reason for an operation failure.
+ This field has a value of <see cref="F:Server.NativeWifi.Wlan.WlanReasonCode.Success"/> for all connection-related notifications except <see cref="F:Server.NativeWifi.Wlan.WlanNotificationCodeAcm.ConnectionComplete"/>.
+ If the connection fails, this field indicates the reason for the failure.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionNotificationData.profileXml">
+	<summary>
+ This field contains the XML presentation of the profile used for discovery, if the connection succeeds.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanConnectionNotificationData">
+	<summary>
+ Contains information about connection related notifications.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_CONNECTION_NOTIFICATION_DATA</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.NotReady">
+	<summary>
+ The interface is not ready to operate.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Connected">
+	<summary>
+ The interface is connected to a network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.AdHocNetworkFormed">
+	<summary>
+ The interface is the first node in an ad hoc network. No peer has connected.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Disconnecting">
+	<summary>
+ The interface is disconnecting from the current network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Disconnected">
+	<summary>
+ The interface is not connected to any network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Associating">
+	<summary>
+ The interface is attempting to associate with a network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Discovering">
+	<summary>
+ Auto configuration is discovering the settings for the network.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceState.Authenticating">
+	<summary>
+ The interface is in the process of authenticating.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanInterfaceState">
+	<summary>
+ Indicates the state of an interface.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_INTERFACE_STATE</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11Ssid.SSIDLength">
+	<summary>
+ The length, in bytes, of the <see cref="F:Server.NativeWifi.Wlan.Dot11Ssid.SSID"/> array.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11Ssid.SSID">
+	<summary>
+ The SSID.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.Dot11Ssid">
+	<summary>
+ Contains the SSID of an interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.Unknown">
+	<summary>
+ Specifies an unknown or uninitialized PHY type.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.Any">
+	<summary>
+ Specifies any PHY type.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.FHSS">
+	<summary>
+ Specifies a frequency-hopping spread-spectrum (FHSS) PHY. Bluetooth devices can use FHSS or an adaptation of FHSS.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.DSSS">
+	<summary>
+ Specifies a direct sequence spread spectrum (DSSS) PHY.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.IrBaseband">
+	<summary>
+ Specifies an infrared (IR) baseband PHY.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.OFDM">
+	<summary>
+ Specifies an orthogonal frequency division multiplexing (OFDM) PHY. 802.11a devices can use OFDM.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.HRDSSS">
+	<summary>
+ Specifies a high-rate DSSS (HRDSSS) PHY.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.ERP">
+	<summary>
+ Specifies an extended rate PHY (ERP). 802.11g devices can use ERP.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.IHV_Start">
+	<summary>
+ Specifies the start of the range that is used to define PHY types that are developed by an independent hardware vendor (IHV).
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11PhyType.IHV_End">
+	<summary>
+ Specifies the end of the range that is used to define PHY types that are developed by an independent hardware vendor (IHV).
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.Dot11PhyType">
+	<summary>
+ Defines an 802.11 PHY and media type.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>DOT11_PHY_TYPE</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11CipherAlgorithm.RSN_UseGroup">
+	<summary>
+ Specifies a Wifi Protected Access (WPA) Use Group Key cipher suite. For more information about the Use Group Key cipher suite, refer to Clause 7.3.2.9.1 of the IEEE 802.11i-2004 standard.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11CipherAlgorithm.WEP">
+	<summary>
+ Specifies a WEP cipher algorithm with a cipher key of any length.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11CipherAlgorithm.IHV_Start">
+	<summary>
+ Specifies the start of the range that is used to define proprietary cipher algorithms that are developed by an independent hardware vendor (IHV).
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11CipherAlgorithm.IHV_End">
+	<summary>
+ Specifies the end of the range that is used to define proprietary cipher algorithms that are developed by an IHV.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanSecurityAttributes.securityEnabled">
+	<summary>
+ Indicates whether security is enabled for this connection.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanSecurityAttributes.dot11AuthAlgorithm">
+	<summary>
+ The authentication algorithm.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanSecurityAttributes.dot11CipherAlgorithm">
+	<summary>
+ The cipher algorithm.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionAttributes.isState">
+	<summary>
+ The state of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionAttributes.wlanConnectionMode">
+	<summary>
+ The mode of the connection.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionAttributes.profileName">
+	<summary>
+ The name of the profile used for the connection. Profile names are case-sensitive.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionAttributes.wlanAssociationAttributes">
+	<summary>
+ The attributes of the association.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanConnectionAttributes.wlanSecurityAttributes">
+	<summary>
+ The security attributes of the connection.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanConnectionAttributes">
+	<summary>
+ Defines the attributes of a wireless connection.
+ </summary>
+	<remarks>
+ Corresponds to the native <c>WLAN_CONNECTION_ATTRIBUTES</c> type.
+ </remarks>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceInfo.interfaceGuid">
+	<summary>
+ The GUID of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceInfo.interfaceDescription">
+	<summary>
+ The description of the interface.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanInterfaceInfo.isState">
+	<summary>
+ The current state of the interface.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanInterfaceInfo">
+	<summary>
+ Contains information about a LAN interface.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanInterfaceInfoListHeader">
+	<summary>
+ The header of the list returned by <see cref="M:Server.NativeWifi.Wlan.WlanEnumInterfaces(System.IntPtr,System.IntPtr,System.IntPtr@)"/>.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanProfileInfoListHeader">
+	<summary>
+ The header of the list returned by <see cref="M:Server.NativeWifi.Wlan.WlanGetProfileList(System.IntPtr,System.Guid,System.IntPtr,System.IntPtr@)"/>.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanProfileInfo.profileName">
+	<summary>
+ The name of the profile. This value may be the name of a domain if the profile is for provisioning. Profile names are case-sensitive.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.WlanProfileInfo.profileFlags">
+	<summary>
+ Profile flags.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.WlanProfileInfo">
+	<summary>
+ Contains basic information about a profile.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11OperationMode.ExtensibleStation">
+	<summary>
+ Specifies that the miniport driver supports the Extensible Station (ExtSTA) operation mode.
+ </summary>
+</member><member name="F:Server.NativeWifi.Wlan.Dot11OperationMode.NetworkMonitor">
+	<summary>
+ Specifies that the miniport driver supports the Network Monitor (NetMon) operation mode.
+ </summary>
+</member><member name="T:Server.NativeWifi.Wlan.Dot11OperationMode">
+	<summary>
+ Flags that specifiy the miniport driver's current operation mode.
+ </summary>
+</member><member name="T:Server.NativeWifi.WlanClient.WlanInterface.WlanNotificationEventHandler">
+	<summary>
+ Represents a method that will handle <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanNotification"/> events.
+ </summary>
+	<param name="notifyData">The notification data.</param>
+</member><member name="T:Server.NativeWifi.WlanClient.WlanInterface.WlanConnectionNotificationEventHandler">
+	<summary>
+ Represents a method that will handle <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanConnectionNotification"/> events.
+ </summary>
+	<param name="notifyData">The notification data.</param>
+	<param name="connNotifyData">The notification data.</param>
+</member><member name="T:Server.NativeWifi.WlanClient.WlanInterface.WlanReasonNotificationEventHandler">
+	<summary>
+ Represents a method that will handle <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanReasonNotification"/> events.
+ </summary>
+	<param name="notifyData">The notification data.</param>
+	<param name="reasonCode">The reason code.</param>
+</member><member name="E:Server.NativeWifi.WlanClient.WlanInterface.WlanNotification">
+	<summary>
+ Occurs when an event of any kind occurs on a WLAN interface.
+ </summary>
+</member><member name="E:Server.NativeWifi.WlanClient.WlanInterface.WlanConnectionNotification">
+	<summary>
+ Occurs when a WLAN interface changes connection state.
+ </summary>
+</member><member name="E:Server.NativeWifi.WlanClient.WlanInterface.WlanReasonNotification">
+	<summary>
+ Occurs when a WLAN operation fails due to some reason.
+ </summary>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.SetInterfaceInt(Server.NativeWifi.Wlan.WlanIntfOpcode,System.Int32)">
+	<summary>
+ Sets a parameter of the interface whose data type is <see cref="M:Microsoft.VisualBasic.Conversion.Int(System.Int16)"/>.
+ </summary>
+	<param name="opCode">The opcode of the parameter.</param>
+	<param name="value">The value to set.</param>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetInterfaceInt(Server.NativeWifi.Wlan.WlanIntfOpcode)">
+	<summary>
+ Gets a parameter of the interface whose data type is <see cref="M:Microsoft.VisualBasic.Conversion.Int(System.Int16)"/>.
+ </summary>
+	<param name="opCode">The opcode of the parameter.</param>
+	<returns>The integer value.</returns>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.Autoconf">
+	<summary>
+ Gets or sets a value indicating whether this <see cref="T:Server.NativeWifi.WlanClient.WlanInterface"/> is automatically configured.
+ </summary>
+	<value><c>true</c> if "autoconf" is enabled; otherwise, <c>false</c>.</value>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.BssType">
+	<summary>
+ Gets or sets the BSS type for the indicated interface.
+ </summary>
+	<value>The type of the BSS.</value>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.InterfaceState">
+	<summary>
+ Gets the state of the interface.
+ </summary>
+	<value>The state of the interface.</value>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.Channel">
+	<summary>
+ Gets the channel.
+ </summary>
+	<value>The channel.</value>
+	<remarks>Not supported on Windows XP SP2.</remarks>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.RSSI">
+	<summary>
+ Gets the RSSI.
+ </summary>
+	<value>The RSSI.</value>
+	<remarks>Not supported on Windows XP SP2.</remarks>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.CurrentConnection">
+	<summary>
+ Gets the attributes of the current connection.
+ </summary>
+	<value>The current connection attributes.</value>
+	<exception cref="T:System.ComponentModel.Win32Exception">An exception with code 0x0000139F (The group or resource is not in the correct state to perform the requested operation.) will be thrown if the interface is not connected to a network.</exception>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.Scan">
+	<summary>
+ Requests a scan for available networks.
+ </summary>
+	<remarks>
+ The method returns immediately. Progress is reported through the <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanNotification"/> event.
+ </remarks>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetAvailableNetworkList(Server.NativeWifi.Wlan.WlanGetAvailableNetworkFlags)">
+	<summary>
+ Retrieves the list of available networks.
+ </summary>
+	<param name="flags">Controls the type of networks returned.</param>
+	<returns>A list of the available networks.</returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.ConvertBssListPtr(System.IntPtr)">
+	<summary>
+ Converts a pointer to a BSS list (header + entries) to an array of BSS entries.
+ </summary>
+	<param name="bssListPtr">A pointer to a BSS list's header.</param>
+	<returns>An array of BSS entries.</returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetNetworkBssList">
+	<summary>
+ Retrieves the basic service sets (BSS) list of all available networks.
+ </summary>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetNetworkBssList(Server.NativeWifi.Wlan.Dot11Ssid,Server.NativeWifi.Wlan.Dot11BssType,System.Boolean)">
+	<summary>
+ Retrieves the basic service sets (BSS) list of the specified network.
+ </summary>
+	<param name="ssid">Specifies the SSID of the network from which the BSS list is requested.</param>
+	<param name="bssType">Indicates the BSS type of the network.</param>
+	<param name="securityEnabled">Indicates whether security is enabled on the network.</param>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.Connect(Server.NativeWifi.Wlan.WlanConnectionParameters)">
+	<summary>
+ Connects to a network defined by a connection parameters structure.
+ </summary>
+	<param name="connectionParams">The connection paramters.</param>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.Connect(Server.NativeWifi.Wlan.WlanConnectionMode,Server.NativeWifi.Wlan.Dot11BssType,System.String)">
+	<summary>
+ Requests a connection (association) to the specified wireless network.
+ </summary>
+	<remarks>
+ The method returns immediately. Progress is reported through the <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanNotification"/> event.
+ </remarks>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.ConnectSynchronously(Server.NativeWifi.Wlan.WlanConnectionMode,Server.NativeWifi.Wlan.Dot11BssType,System.String,System.Int32)">
+	<summary>
+ Connects (associates) to the specified wireless network, returning either on a success to connect
+ or a failure.
+ </summary>
+	<param name="connectionMode"></param>
+	<param name="bssType"></param>
+	<param name="profile"></param>
+	<param name="connectTimeout"></param>
+	<returns></returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.Connect(Server.NativeWifi.Wlan.WlanConnectionMode,Server.NativeWifi.Wlan.Dot11BssType,Server.NativeWifi.Wlan.Dot11Ssid,Server.NativeWifi.Wlan.WlanConnectionFlags)">
+	<summary>
+ Connects to the specified wireless network.
+ </summary>
+	<remarks>
+ The method returns immediately. Progress is reported through the <see cref="E:Server.NativeWifi.WlanClient.WlanInterface.WlanNotification"/> event.
+ </remarks>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.DeleteProfile(System.String)">
+	<summary>
+ Deletes a profile.
+ </summary>
+	<param name="profileName">
+ The name of the profile to be deleted. Profile names are case-sensitive.
+ On Windows XP SP2, the supplied name must match the profile name derived automatically from the SSID of the network. For an infrastructure network profile, the SSID must be supplied for the profile name. For an ad hoc network profile, the supplied name must be the SSID of the ad hoc network followed by <c>-adhoc</c>.
+ </param>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.SetProfile(Server.NativeWifi.Wlan.WlanProfileFlags,System.String,System.Boolean)">
+	<summary>
+ Sets the profile.
+ </summary>
+	<param name="flags">The flags to set on the profile.</param>
+	<param name="profileXml">The XML representation of the profile. On Windows XP SP 2, special care should be taken to adhere to its limitations.</param>
+	<param name="overwrite">If a profile by the given name already exists, then specifies whether to overwrite it (if <c>true</c>) or return an error (if <c>false</c>).</param>
+	<returns>The resulting code indicating a success or the reason why the profile wasn't valid.</returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetProfileXml(System.String)">
+	<summary>
+ Gets the profile's XML specification.
+ </summary>
+	<param name="profileName">The name of the profile.</param>
+	<returns>The XML document.</returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.GetProfiles">
+	<summary>
+ Gets the information of all profiles on this interface.
+ </summary>
+	<returns>The profiles information.</returns>
+</member><member name="M:Server.NativeWifi.WlanClient.WlanInterface.EnqueueEvent(System.Object)">
+	<summary>
+ Enqueues a notification event to be processed serially.
+ </summary>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.NetworkInterface">
+	<summary>
+ Gets the network interface of this wireless interface.
+ </summary>
+	<remarks>
+ The network interface allows querying of generic network properties such as the interface's IP address.
+ </remarks>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.InterfaceGuid">
+	<summary>
+ The GUID of the interface (same content as the <see cref="P:System.Net.NetworkInformation.NetworkInterface.Id"/> value).
+ </summary>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.InterfaceDescription">
+	<summary>
+ The description of the interface.
+ This is a user-immutable string containing the vendor and model name of the adapter.
+ </summary>
+</member><member name="P:Server.NativeWifi.WlanClient.WlanInterface.InterfaceName">
+	<summary>
+ The friendly name given to the interface by the user (e.g. "Local Area Network Connection").
+ </summary>
+</member>
+</members>
+</doc>
