@@ -1,0 +1,522 @@
+﻿
+
+Afghanistan|33.00,65.00
+
+Akrotiri|34.37,32.58
+
+Albania|41.00,20.00
+
+Algeria|28.00,3.00
+
+American Samoa|-14.20,-170.00
+
+Andorra|42.30,1.30
+
+Angola|-12.30,18.30
+
+Anguilla|18.15,-63.10
+
+Antarctica|-90.00,0.00
+
+Antigua and Barbuda|17.03,-61.48
+
+Arctic Ocean|90.00,0.00
+
+Argentina|-34.00,-64.00
+
+Armenia|40.00,45.00
+
+Aruba|12.30,-69.58
+
+Ashmore and Cartier Islands|-12.14,123.05
+
+Atlantic Ocean|0.00,-25.00
+
+Australia|-27.00,133.00
+
+Austria|47.20,13.20
+
+Azerbaijan|40.30,47.30
+
+Bahamas, The|24.15,-76.00
+
+Bahrain|26.00,50.33
+
+Bangladesh|24.00,90.00
+
+Barbados|13.10,-59.32
+
+Belarus|53.00,28.00
+
+Belgium|50.50,4.00
+
+Belize|17.15,-88.45
+
+Benin|9.30,2.15
+
+Bermuda|32.20,-64.45
+
+Bhutan|27.30,90.30
+
+Bolivia|-17.00,-65.00
+
+Bosnia and Herzegovina|44.00,18.00
+
+Botswana|-22.00,24.00
+
+Bouvet Island|-54.26,3.24
+
+Brazil|-10.00,-55.00
+
+British Indian Ocean Territory|-6.00,71.30
+
+British Virgin Islands|18.30,-64.30
+
+Brunei|4.30,114.40
+
+Bulgaria|43.00,25.00
+
+Burkina Faso|13.00,-2.00
+
+Burma|22.00,98.00
+
+Burundi|-3.30,30.00
+
+Cambodia|13.00,105.00
+
+Cameroon|6.00,12.00
+
+Canada|60.00,-95.00
+
+Cape Verde|16.00,-24.00
+
+Cayman Islands|19.30,-80.30
+
+Central African Republic|7.00,21.00
+
+Chad|15.00,19.00
+
+Chile|-30.00,-71.00
+
+China|35.00,105.00
+
+Christmas Island|-10.30,105.40
+
+Clipperton Island|10.17,-109.13
+
+Cocos (Keeling) Islands|-12.30,96.50
+
+Colombia|4.00,-72.00
+
+Comoros|-12.10,44.15
+
+Congo, Democratic Republic of the|0.00,25.00
+
+Congo, Republic of the|-1.00,15.00
+
+Cook Islands|-21.14,-159.46
+
+Coral Sea Islands|-18.00,152.00
+
+Costa Rica|10.00,-84.00
+
+Cote d'Ivoire|8.00,-5.00
+
+Croatia|45.10,15.30
+
+Cuba|21.30,-80.00
+
+Curacao|12.10,-69.00
+
+Cyprus|35.00,33.00
+
+Czech Republic|49.45,15.30
+
+Denmark|56.00,10.00
+
+Dhekelia|34.59,33.45
+
+Djibouti|11.30,43.00
+
+Dominica|15.25,-61.20
+
+Dominican Republic|19.00,-70.40
+
+Ecuador|-2.00,-77.30
+
+Egypt|27.00,30.00
+
+El Salvador|13.50,-88.55
+
+Equatorial Guinea|2.00,10.00
+
+Eritrea|15.00,39.00
+
+Estonia|59.00,26.00
+
+Ethiopia|8.00,38.00
+
+Falkland Islands (Islas Malvinas)|-51.45,-59.00
+
+Faroe Islands|62.00,-7.00
+
+Fiji|-18.00,175.00
+
+Finland|64.00,26.00
+
+France|46.00,2.00
+
+French Polynesia|-15.00,-140.00
+
+French Southern and Antarctic Lands|-Ile.Amsterdam,77.32
+
+Gabon|-1.00,11.45
+
+Gambia, The|13.28,-16.34
+
+Gaza Strip|31.25,34.20
+
+Georgia|42.00,43.30
+
+Germany|51.00,9.00
+
+Ghana|8.00,-2.00
+
+Gibraltar|36.08,-5.21
+
+Greece|39.00,22.00
+
+Greenland|72.00,-40.00
+
+Grenada|12.07,-61.40
+
+Guam|13.28,144.47
+
+Guatemala|15.30,-90.15
+
+Guernsey|49.28,-2.35
+
+Guinea|11.00,-10.00
+
+Guinea-Bissau|12.00,-15.00
+
+Guyana|5.00,-59.00
+
+Haiti|19.00,-72.25
+
+Heard Island and McDonald Islands|-53.06,72.31
+
+Holy See (Vatican City)|41.54,12.27
+
+Honduras|15.00,-86.30
+
+Hong Kong|22.15,114.10
+
+Hungary|47.00,20.00
+
+Iceland|65.00,-18.00
+
+India|20.00,77.00
+
+Indian Ocean|-20.00,80.00
+
+Indonesia|-5.00,120.00
+
+Iran|32.00,53.00
+
+Iraq|33.00,44.00
+
+Ireland|53.00,-8.00
+
+Isle of Man|54.15,-4.30
+
+Israel|31.30,34.45
+
+Italy|42.50,12.50
+
+Jamaica|18.15,-77.30
+
+Jan Mayen|71.00,-8.00
+
+Japan|36.00,138.00
+
+Jersey|49.15,-2.10
+
+Jordan|31.00,36.00
+
+Kazakhstan|48.00,68.00
+
+Kenya|1.00,38.00
+
+Kiribati|1.25,173.00
+
+Korea, North|40.00,127.00
+
+Korea, South|37.00,127.30
+
+Kosovo|42.35,21.00
+
+Kuwait|29.30,45.45
+
+Kyrgyzstan|41.00,75.00
+
+Laos|18.00,105.00
+
+Latvia|57.00,25.00
+
+Lebanon|33.50,35.50
+
+Lesotho|-29.30,28.30
+
+Liberia|6.30,-9.30
+
+Libya|25.00,17.00
+
+Liechtenstein|47.16,9.32
+
+Lithuania|56.00,24.00
+
+Luxembourg|49.45,6.10
+
+Macau|22.10,113.33
+
+Macedonia|41.50,22.00
+
+Madagascar|-20.00,47.00
+
+Malawi|-13.30,34.00
+
+Malaysia|2.30,112.30
+
+Maldives|3.15,73.00
+
+Mali|17.00,-4.00
+
+Malta|35.50,14.35
+
+Marshall Islands|9.00,168.00
+
+Mauritania|20.00,-12.00
+
+Mauritius|-20.17,57.33
+
+Mayotte|-12.50,45.10
+
+Mexico|23.00,-102.00
+
+Micronesia, Federated States of|6.55,158.15
+
+Moldova|47.00,29.00
+
+Monaco|43.44,7.24
+
+Mongolia|46.00,105.00
+
+Montenegro|42.30,19.18
+
+Montserrat|16.45,-62.12
+
+Morocco|32.00,-5.00
+
+Mozambique|-18.15,35.00
+
+Namibia|-22.00,17.00
+
+Nauru|-0.32,166.55
+
+Navassa Island|18.25,-75.02
+
+Nepal|28.00,84.00
+
+Netherlands|52.30,5.45
+
+Netherlands Antilles|Bonaire:.12,-68.15
+
+New Caledonia|-21.30,165.30
+
+New Zealand|-41.00,174.00
+
+Nicaragua|13.00,-85.00
+
+Niger|16.00,8.00
+
+Nigeria|10.00,8.00
+
+Niue|-19.02,-169.52
+
+Norfolk Island|-29.02,167.57
+
+Northern Mariana Islands|15.12,145.45
+
+Norway|62.00,10.00
+
+Oman|21.00,57.00
+
+Pacific Ocean|0.00,-160.00
+
+Pakistan|30.00,70.00
+
+Palau|7.30,134.30
+
+Panama|9.00,-80.00
+
+Papua New Guinea|-6.00,147.00
+
+Paracel Islands|16.30,112.00
+
+Paraguay|-23.00,-58.00
+
+Peru|-10.00,-76.00
+
+Philippines|13.00,122.00
+
+Pitcairn Islands|-25.04,-130.06
+
+Poland|52.00,20.00
+
+Portugal|39.30,-8.00
+
+Puerto Rico|18.15,-66.30
+
+Qatar|25.30,51.15
+
+Romania|46.00,25.00
+
+Russia|60.00,100.00
+
+Rwanda|-2.00,30.00
+
+Saint Barthelemy|17.90,-62.85
+
+Saint Helena, Ascension, and Tristan da Cunha|-Saint.Helena:,-5.42
+
+Saint Kitts and Nevis|17.20,-62.45
+
+Saint Lucia|13.53,-60.58
+
+Saint Martin|18.05,-63.57
+
+Saint Pierre and Miquelon|46.50,-56.20
+
+Saint Vincent and the Grenadines|13.15,-61.12
+
+Samoa|-13.35,-172.20
+
+San Marino|43.46,12.25
+
+Sao Tome and Principe|1.00,7.00
+
+Saudi Arabia|25.00,45.00
+
+Senegal|14.00,-14.00
+
+Serbia|44.00,21.00
+
+Seychelles|-4.35,55.40
+
+Sierra Leone|8.30,-11.30
+
+Singapore|1.22,103.48
+
+Sint Maarten|18.4,-63.4
+
+Slovakia|48.40,19.30
+
+Slovenia|46.07,14.49
+
+Solomon Islands|-8.00,159.00
+
+Somalia|10.00,49.00
+
+South Africa|-29.00,24.00
+
+South Georgia and South Sandwich Islands|-54.30,-37.00
+
+Southern Ocean|-60.00,90.00
+
+Spain|40.00,-4.00
+
+Spratly Islands|8.38,111.55
+
+Sri Lanka|7.00,81.00
+
+Sudan|15.00,30.00
+
+Suriname|4.00,-56.00
+
+Svalbard|78.00,20.00
+
+Swaziland|-26.30,31.30
+
+Sweden|62.00,15.00
+
+Switzerland|47.00,8.00
+
+Syria|35.00,38.00
+
+Taiwan|23.30,121.00
+
+Tajikistan|39.00,71.00
+
+Tanzania|-6.00,35.00
+
+Thailand|15.00,100.00
+
+Timor-Leste|-8.50,125.55
+
+Togo|8.00,1.10
+
+Tokelau|-9.00,-172.00
+
+Tonga|-20.00,-175.00
+
+Trinidad and Tobago|11.00,-61.00
+
+Tunisia|34.00,9.00
+
+Turkey|39.00,35.00
+
+Turkmenistan|40.00,60.00
+
+Turks and Caicos Islands|21.45,-71.35
+
+Tuvalu|-8.00,178.00
+
+Uganda|1.00,32.00
+
+Ukraine|49.00,32.00
+
+United Arab Emirates|24.00,54.00
+
+United Kingdom|54.00,-2.00
+
+United States|38.00,-97.00
+
+United States Pacific Island Wildlife Refuges|0.13,-176.28
+Baker.Island:0.13,-176.28
+
+Uruguay|-33.00,-56.00
+
+Uzbekistan|41.00,64.00
+
+Vanuatu|-16.00,167.00
+
+Venezuela|8.00,-66.00
+
+Vietnam|16.10,107.50
+
+Virgin Islands|18.20,-64.50
+
+Wake Island|19.17,166.39
+
+Wallis and Futuna|-13.18,-176.12
+
+West Bank|32.00,35.15
+
+Western Sahara|24.30,-13.00
+
+Yemen|15.00,48.00
+
+Zambia|-15.00,30.00
+
+Zimbabwe|-20.00,30.00
