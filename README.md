@@ -1,6 +1,6 @@
 # Spy_Byte_Pal
 This is a sample Opensource (Not 100% from the original source)
-# This is For Educational Pusposes Only ! and User is responsibile for his usage of this Tool
+# This is For Educational Purposes Only ! and User is responsible for his usage of this Tool
 
 # For Example : 
 - Parental Control , Track what your children are doing.
