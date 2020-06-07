@@ -9,6 +9,13 @@ This is a sample Opensource (Not 100% from the original source)
 - Personal Control and File Backup , Make sure no one is using your computer when you are away.
 - Other Noble Purposes
 
+[![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
+# Support us please 🥰  
+Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
+
+[![Patreaon Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/patreon_button2.png)](https://www.patreon.com/BlueEagle)
+# Support us please 🥰 for more & more  
+
 # Fork for more Sources , No Error in the Solution (Tested)
 This Source is very Complicated And very large so , read it carefully and 
 strict to the license provided with , Enjoy 
