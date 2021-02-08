@@ -10,6 +10,10 @@ This is a sample Opensource (Not 100% from the original source)
 - Other Noble Purposes
 
 [![Facebook Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/facebook_button.png)](https://www.facebook.com/NsBleeD/posts/)
+  
+# If you like my work, consider buying me a Nescafe coffee Or Energy Drink 🥰 
+
+# Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
 
 [![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
 # Support us please 🥰  
